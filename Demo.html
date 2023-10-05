@@ -1,0 +1,1159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Demo.css" />
+    <title>DEMO</title>
+  </head>
+
+  <style>
+    * {
+      /* font-family: "Noto Sans KR", sans-serif; */
+    }
+
+    .cls {
+      background-color: black;
+      color: white;
+    }
+
+    #abc {
+      background-color: red;
+      color: yellow;
+    }
+
+    #nn {
+      text-align: center;
+      background-color: black;
+      color: azure;
+    }
+
+    .diiv {
+      justify-content: center;
+      display: flex;
+    }
+
+    table {
+      border-spacing: 15px;
+      width: 80%;
+    }
+
+    table,
+    th,
+    td {
+      border: 2px solid green;
+    }
+
+    tr:nth-child(even) {
+      background-color: black;
+      color: white;
+      text-align: center;
+    }
+
+    th:nth-child(even),
+    td:nth-child(even) {
+      background-color: blue;
+    }
+
+    .abc th {
+      background-color: aquamarine;
+    }
+
+    /* p {
+      color: blue;
+    } */
+
+    .hover:hover {
+      background-color: palevioletred !important;
+      color: white;
+      border: 2px solid green !important;
+    }
+
+    .jjj:hover {
+      background-color: white !important;
+      color: purple !important;
+      border: 5px solid purple !important;
+    }
+
+    .opactiy:hover {
+      opacity: 0.7;
+    }
+
+    body {
+      background: linear-gradient(to right, palegreen, palevioletred, green);
+    }
+
+    #borderimg {
+      border: 10px solid transparent;
+      padding: 15px;
+      border-image: url("https://images.unsplash.com/photo-1496989981497-27d69cdad83e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2lyY2xlfGVufDB8fDB8fHww&auto=format&fit=crop&w=400&q=60")
+        28 round;
+    }
+
+    .ppp:hover {
+      width: 300px !important;
+      height: 200px;
+    }
+
+
+    .tra:hover{
+      /* transform: rotate(-30deg); */
+        /* transform: rotateX(75deg); */
+        /* transform: rotateY(75deg); */
+    }
+
+    .tras:hover{
+    transform: scale(1.2);
+    }
+
+    .trasd:hover{
+      /* transform:skew(-25deg) ; */
+      transform: skewY(-25deg);
+    
+    }
+
+    .trasds:hover{
+      transform: translateX(45px);
+    }
+
+    .dropdown-content{
+      display: none;
+    }
+
+    .dropdown:hover .dropdown-content{
+      display: block;
+      background-color: red;
+      width: 250px;
+      color: yellow;
+    }
+  </style>
+
+  <body>
+    <!-- Heading -->
+    <h1 style="font-family: cursive">Hello India</h1>
+    <h2
+      style="
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+          'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      "
+    >
+      Hello India
+    </h2>
+    <h3>Hello India</h3>
+    <h4>Hello India</h4>
+    <h5>Hello India</h5>
+    <h6 class="cls">Hello India</h6>
+
+    <p
+      style="
+        font-size: 25px;
+        color: blue;
+        background-color: yellow;
+        font-family: fantasy;
+      "
+    >
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur
+      dicta, quidem quis nisi magnam nemo quo atque exercitationem ea fugiat
+      eum, ut assumenda voluptates optio provident omnis illum accusantium ipsa,
+      doloremque placeat debitis. Optio aliquam temporibus repellendus, nostrum
+      possimus voluptatibus ea a atque perspiciatis ducimus ut officiis commodi
+      eveniet debitis!
+    </p>
+
+    <!-- <img src="https://images.unsplash.com/photo-1608848461950-0fe51dfc41cb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D&w=1000&q=80" height="350"> -->
+
+    <img src="Cat.jfif" height="450" /><br />
+
+    <a href="https://www.flipkart.com/">FLIPCART</a><br />
+    <a
+      href="https://www.amazon.in/DECORE-BASKET-Birds-Floral-44X3X25/dp/B08DSTGTBZ/?_encoding=UTF8&pd_rd_w=ba3mM&content-id=amzn1.sym.6db957c6-f5a6-4487-bbe7-de9290223bcf&pf_rd_p=6db957c6-f5a6-4487-bbe7-de9290223bcf&pf_rd_r=VCD1ZXYN218MXA4C53YJ&pd_rd_wg=Q2PHF&pd_rd_r=b27a5309-9d51-4493-922f-463e7d48d348&ref_=pd_gw_ls_gwc_pc_en6_"
+      >AMAZON</a
+    ><br />
+    <h6 id="abc">Hello gUJARAT</h6>
+    <br />
+
+    <div class="diiv">
+      <i
+        class="fa-brands fa-instagram"
+        style="font-size: 75px; color: cyan"
+      ></i>
+      <i
+        class="fa-brands fa-whatsapp"
+        style="font-size: 55px; color: green"
+      ></i>
+      <i
+        class="fa-solid fa-cart-shopping"
+        style="font-size: 85px; color: blueviolet"
+      ></i>
+    </div>
+
+    <hr style="width: 550px" />
+
+    <!-- List Tag -->
+
+    <ol></ol>
+    <ul></ul>
+
+    <ol>
+      <li>Apple</li>
+      <li>Kiwi</li>
+      <li>Banana</li>
+      <li>Oranged</li>
+      <li>Graps</li>
+    </ol>
+
+    <ul>
+      <li>Apple</li>
+      <li>Kiwi</li>
+      <li>Banana</li>
+      <li>Oranged</li>
+      <li>graps</li>
+    </ul>
+
+    <br /><br />
+
+    <p id="nn">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo dolor
+      fugiat molestiae
+    </p>
+    <br /><br />
+
+    <!-- Formationg elements -->
+
+    <p>
+      Lorem ipsum dolor sit amet <b>consectetur adipisicing</b> elit. Neque
+      labore ducimus facere?
+    </p>
+
+    <p>
+      Lorem ipsum dolor sit amet <strong>consectetur adipisicing</strong> elit.
+      Neque labore ducimus facere?
+    </p>
+
+    <p>
+      Lorem ipsum dolor sit amet <i><b>consectetur adipisicing</b></i> elit.
+      Neque labore ducimus facere?
+    </p>
+
+    <p>
+      Lorem ipsum dolor sit amet <em><b>consectetur adipisicing</b></em> elit.
+      Neque labore ducimus facere?
+    </p>
+
+    <p>
+      Lorem ipsum dolor sit amet <mark>consectetur adipisicing</mark> elit.
+      Neque labore ducimus facere?
+    </p>
+
+    <p>
+      Lorem ipsum dolor sit amet <small>consectetur adipisicing</small> elit.
+      Neque labore ducimus facere?
+    </p>
+
+    <p>
+      Lorem ipsum dolor sit amet <del>consectetur adipisicing</del> elit. Neque
+      labore ducimus facere?
+    </p>
+
+    <p>
+      Lorem ipsum dolor sit amet <ins>consectetur adipisicing</ins> elit. Neque
+      labore ducimus facere?
+    </p>
+
+    <p>
+      Lorem ipsum dolor sit amet <sub>consectetur adipisicing</sub> elit. Neque
+      labore ducimus facere?
+    </p>
+
+    <p>
+      Lorem ipsum dolor sit amet <sup>consectetur adipisicing</sup> elit. Neque
+      labore ducimus facere?
+    </p>
+    <br /><br />
+
+    <!-- Span Tag -->
+
+    <p style="text-align: center; font-size: 20px; font-weight: 800">
+      Lorem ipsum dolor sit amet
+      <span style="color: purple; font-size: 25px"
+        ><i>consectetur adipisicing</i></span
+      >
+      elit. Vitae eum facilis explicabo.
+    </p>
+
+    <br /><br />
+
+    <!-- BUtton -->
+
+    <button
+      style="
+        background-color: brown;
+        color: azure;
+        border: 2px solid green;
+        border-radius: 50px;
+        outline: 2px solid blue;
+        outline-offset: 2px;
+      "
+    >
+      ADD CART
+    </button>
+
+    <!-- Margin -->
+
+    <p
+      style="
+        border: 12px solid rebeccapurple;
+        margin: 25px 45px;
+        padding: 25px 15px;
+        background-color: paleturquoise;
+        color: brown;
+        font-family: cursive;
+        border-radius: 45px;
+        outline: 12px solid green;
+        outline-offset: 2px;
+      "
+    >
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae consequatur
+      non facere harum dicta excepturi repellat animi dolore ut voluptate autem
+      tempora voluptas sint deleniti vel, dolorum repellendus magni laborum.
+    </p>
+
+    <p style="border: 5px solid red; padding: 15px; margin: 12px">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro iste quis
+      unde debitis eveniet ipsa?
+    </p>
+
+    <p style="border: 5px double red">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro iste quis
+      unde debitis eveniet ipsa?
+    </p>
+
+    <p style="border: 5px dashed red">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro iste quis
+      unde debitis eveniet ipsa?
+    </p>
+
+    <p style="border: 5px dotted red">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro iste quis
+      unde debitis eveniet ipsa?
+    </p>
+    <br /><br />
+
+    <!-- LineHeight -->
+    <div>
+      <p style="line-height: 30px">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat sunt
+        voluptatum repellat nesciunt fugit adipisci optio nam quae excepturi!
+        Voluptate possimus dicta at cupiditate unde, quo dolores. Iure, culpa
+        sequi maxime quam non et ducimus sint deserunt nemo consectetur ea
+        dolorem est debitis repudiandae? Repudiandae!
+      </p>
+    </div>
+
+    <div style="background-color: palevioletred; padding: 15px">
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta eius
+        illum perspiciatis provident, ea fuga aut laboriosam aperiam
+        repellendus, possimus cum dolorum rem sint est neque asperiores enim
+        iure sunt reiciendis placeat esse sit! Suscipit eius veritatis
+        voluptatibus asperiores sit dolorum ad minima necessitatibus quas.
+      </p>
+
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta eius
+        illum perspiciatis provident, ea fuga aut laboriosam aperiam
+        repellendus, possimus cum dolorum rem sint est neque asperiores enim
+        iure sunt reiciendis placeat esse sit! Suscipit eius veritatis
+        voluptatibus asperiores sit dolorum ad minima necessitatibus quas.
+      </p>
+    </div>
+
+    <!-- wordSpace -->
+    <div>
+      <p style="word-spacing: 20px">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo error quis
+        voluptatibus iure cupiditate iste eaque laborum assumenda ea nesciunt
+        consequatur, molestias, hic vitae? Ipsum quod quibusdam iste, delectus
+        optio iusto, voluptate sint quae asperiores eaque, consequatur
+        accusamus. Ipsam, praesentium ullam velit fuga odit quos?
+      </p>
+    </div>
+
+    <!-- Letterspace -->
+    <div>
+      <p style="letter-spacing: 8px">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat,
+        cumque consequuntur eveniet delectus voluptas nisi. Laudantium nobis,
+        quis dolores modi qui illum eum ducimus quibusdam commodi! Nostrum
+        incidunt accusantium aliquid eveniet inventore debitis, soluta
+        blanditiis voluptatibus? Quis molestiae inventore quidem accusamus
+        cumque, vero voluptatibus earum!
+      </p>
+    </div>
+
+    <br /><br />
+
+    <buton
+      style="
+        background-color: blue;
+        color: white;
+        padding: 12px 25px;
+        border: 2px solid green;
+        letter-spacing: 4px;
+      "
+      >Click me</buton
+    >
+
+    <br /><br />
+
+    <!-- paragraph tag -->
+
+    <div>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+        officiis eaque, temporibus explicabo error distinctio asperiores
+        possimus obcaecati ducimus modi provident, aliquid repudiandae maxime
+        assumenda autem deleniti debitis voluptatibus quos, voluptatum nihil
+        inventore harum quas eveniet? Nihil amet voluptatem maiores nostrum in
+        ipsa harum pariatur?
+      </p>
+    </div>
+
+    <!-- Pre tag -->
+    <div>
+      <pre>
+Lorem ipsum dolor sit amet consectetur adipisicing elit.    Dolorem officiis eaque,  temporibus explicabo error 
+distinction            asperiores possimus obcaecati ducimus modi provident, aliquid repudiandae
+maxime assumenda 
+autem deleniti debitis voluptatibus quos, voluptatum nihil inventore harum 
+quas eveniet? Nihil amet voluptatem maiores nostrum in ipsa harum pariatur?</pre
+      >
+    </div>
+    <br /><br />
+    <br /><br />
+
+    <!-- Flex -->
+
+    <div
+      style="
+        background-color: paleturquoise;
+        display: flex;
+        gap: 25px;
+        text-align: center;
+        padding: 45px;
+        border-radius: 15px;
+        border: 4px solid green;
+      "
+    >
+      <div
+        style="
+          background-color: blue;
+          color: wheat;
+          padding: 12px;
+          border: 5px solid black;
+          border-radius: 15px;
+        "
+      >
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae
+          dolore earum perferendis qui omnis quisquam officia illo quibusdam
+          laborum deserunt officiis fugit cupiditate velit quae commodi
+          explicabo quas, nam excepturi tempore aliquid. Veritatis blanditiis,
+          in veniam quis inventore dolores et provident quae quidem. Possimus,
+          repudiandae similique. Porro ex asperiores expedita dolor. Nemo fuga
+          qui illo?
+        </p>
+      </div>
+
+      <div
+        style="
+          background-color: palegoldenrod;
+          color: red;
+          padding: 12px;
+          border: 5px solid black;
+          border-radius: 15px;
+        "
+      >
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae
+          dolore earum perferendis qui omnis quisquam officia illo quibusdam
+          laborum deserunt officiis fugit cupiditate velit quae commodi
+          explicabo quas, nam excepturi tempore aliquid. Veritatis blanditiis,
+          in veniam quis inventore dolores et provident quae quidem. Possimus,
+          repudiandae similique. Porro ex asperiores expedita dolor. Nemo fuga
+          qui illo?
+        </p>
+      </div>
+      <div>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae
+          dolore earum perferendis qui omnis quisquam officia illo quibusdam
+          laborum deserunt officiis fugit cupiditate velit quae commodi
+          explicabo quas, nam excepturi tempore aliquid. Veritatis blanditiis,
+          in veniam quis inventore dolores et provident quae quidem. Possimus,
+          repudiandae similique. Porro ex asperiores expedita dolor. Nemo fuga
+          qui illo?
+        </p>
+      </div>
+      <div>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae
+          dolore earum perferendis qui omnis quisquam officia illo quibusdam
+          laborum deserunt officiis fugit cupiditate velit quae commodi
+          explicabo quas, nam excepturi tempore aliquid. Veritatis blanditiis,
+          in veniam quis inventore dolores et provident quae quidem. Possimus,
+          repudiandae similique. Porro ex asperiores expedita dolor. Nemo fuga
+          qui illo?
+        </p>
+      </div>
+      <div>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae
+          dolore earum perferendis qui omnis quisquam officia illo quibusdam
+          laborum deserunt officiis fugit cupiditate velit quae commodi
+          explicabo quas, nam excepturi tempore aliquid. Veritatis blanditiis,
+          in veniam quis inventore dolores et provident quae quidem. Possimus,
+          repudiandae similique. Porro ex asperiores expedita dolor. Nemo fuga
+          qui illo?
+        </p>
+      </div>
+      <div>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae
+          dolore earum perferendis qui omnis quisquam officia illo quibusdam
+          laborum deserunt officiis fugit cupiditate velit quae commodi
+          explicabo quas, nam excepturi tempore aliquid. Veritatis blanditiis,
+          in veniam quis inventore dolores et provident quae quidem. Possimus,
+          repudiandae similique. Porro ex asperiores expedita dolor. Nemo fuga
+          qui illo?
+        </p>
+      </div>
+
+      <div>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae
+          dolore earum perferendis qui omnis quisquam officia illo quibusdam
+          laborum deserunt officiis fugit cupiditate velit quae commodi
+          explicabo quas, nam excepturi tempore aliquid. Veritatis blanditiis,
+          in veniam quis inventore dolores et provident quae quidem. Possimus,
+          repudiandae similique. Porro ex asperiores expedita dolor. Nemo fuga
+          qui illo?
+        </p>
+      </div>
+    </div>
+
+    <div
+      style="display: flex; gap: 45px; margin: 45px; justify-content: center"
+    >
+      <div>
+        <img
+          src="https://maxgentechnologies.com/static/media/Logo-and-graphic-design.6628b8666a7ab073fd7f.webp"
+          style="height: 450px; width: 350px"
+        />
+      </div>
+
+      <div style="margin-top: 95px">
+        <h1>
+          Get your SEO Services<br />
+          with Us at <span>Maxgen</span>
+        </h1>
+        <p>
+          When designing a logo and other visuals fo<br />your company, our
+          designers know how <br />to use visual components, colours, and
+          graphics efficiently.
+        </p>
+      </div>
+    </div>
+    <br /><br />
+    <br /><br />
+
+    <div
+      style="
+        display: grid;
+        grid-template-columns: 500px 500px;
+        gap: 45px;
+        padding: 45px;
+        background-color: palevioletred;
+      "
+    >
+      <div style="background-color: aqua; font-size: 25px; padding: 25px">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+          inventore nesciunt ratione qui quo dicta quaerat nemo cumque beatae
+          dolores rem, dignissimos recusandae et magnam magni ad repellendus
+          amet. Veniam nihil nam consequuntur veritatis, temporibus, sapiente
+          illo libero, laudantium iste illum dolorum laboriosam doloribus eum?
+        </p>
+      </div>
+      <div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+          inventore nesciunt ratione qui quo dicta quaerat nemo cumque beatae
+          dolores rem, dignissimos recusandae et magnam magni ad repellendus
+          amet. Veniam nihil nam consequuntur veritatis, temporibus, sapiente
+          illo libero, laudantium iste illum dolorum laboriosam doloribus eum?
+        </p>
+      </div>
+      <div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+          inventore nesciunt ratione qui quo dicta quaerat nemo cumque beatae
+          dolores rem, dignissimos recusandae et magnam magni ad repellendus
+          amet. Veniam nihil nam consequuntur veritatis, temporibus, sapiente
+          illo libero, laudantium iste illum dolorum laboriosam doloribus eum?
+        </p>
+      </div>
+      <div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+          inventore nesciunt ratione qui quo dicta quaerat nemo cumque beatae
+          dolores rem, dignissimos recusandae et magnam magni ad repellendus
+          amet. Veniam nihil nam consequuntur veritatis, temporibus, sapiente
+          illo libero, laudantium iste illum dolorum laboriosam doloribus eum?
+        </p>
+      </div>
+      <div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+          inventore nesciunt ratione qui quo dicta quaerat nemo cumque beatae
+          dolores rem, dignissimos recusandae et magnam magni ad repellendus
+          amet. Veniam nihil nam consequuntur veritatis, temporibus, sapiente
+          illo libero, laudantium iste illum dolorum laboriosam doloribus eum?
+        </p>
+      </div>
+    </div>
+    <br /><br />
+
+    <!--Table -->
+    <table>
+      <tr>
+        <th>Company</th>
+        <th>Contact</th>
+        <th>Country</th>
+      </tr>
+
+      <tr>
+        <td>Maxgen</td>
+        <td>8160256785</td>
+        <td>Ahmedabad</td>
+      </tr>
+
+      <tr>
+        <td>Bytes</td>
+        <td>7845859654</td>
+        <td>Khokhra</td>
+      </tr>
+      <tr>
+        <td>Ncodes</td>
+        <td>8574123654</td>
+        <td>Iscon</td>
+      </tr>
+      <tr>
+        <td>Iflair</td>
+        <td>96+85741256</td>
+        <td>CGroad</td>
+      </tr>
+    </table>
+
+    <br /><br />
+    <br /><br />
+
+    <table class="abc">
+      <tr>
+        <th>Company</th>
+        <th>Contact</th>
+        <th>Country</th>
+      </tr>
+
+      <tr>
+        <td>Maxgen</td>
+        <td>8160256785</td>
+        <td>Ahmedabad</td>
+      </tr>
+
+      <tr>
+        <td>Bytes</td>
+        <td>7845859654</td>
+        <td>Khokhra</td>
+      </tr>
+      <tr>
+        <td>Ncodes</td>
+        <td>8574123654</td>
+        <td>Iscon</td>
+      </tr>
+      <tr>
+        <td>Iflair</td>
+        <td>96+85741256</td>
+        <td>CGroad</td>
+      </tr>
+    </table>
+
+    <!-- Z-index -->
+
+    <div>
+      <img
+        src="https://www.w3schools.com/css/img_tree.png"
+        style="position: absolute; z-index: 1"
+      />
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut doloremque
+        nulla perspiciatis magnam nemo dignissimos velit exercitationem quis
+        incidunt repellat cumque omnis eveniet, reprehenderit neque?Lorem ipsum
+        dolor sit amet consectetur, adipisicing elit. Ut doloremque nulla
+        perspiciatis magnam nemo dignissimos velit exercitationem quis incidunt
+        repellat cumque omnis eveniet, reprehenderit neque?Lorem ipsum dolor sit
+        amet consectetur, adipisicing elit. Ut doloremque nulla perspiciatis
+        magnam nemo dignissimos velit exercitationem quis incidunt repellat
+        cumque omnis eveniet, reprehenderit neque?Lorem ipsum dolor sit amet
+        consectetur, adipisicing elit. Ut doloremque nulla perspiciatis magnam
+        nemo dignissimos velit exercitationem quis incidunt repellat cumque
+        omnis eveniet, reprehenderit neque?
+      </p>
+    </div>
+    <br /><br /><br /><br /><br />
+    <br /><br /><br /><br /><br />
+    <br /><br /><br /><br /><br />
+
+    <!-- Overflow -->
+
+    <div>
+      <p
+        style="
+          border: 4px solid green;
+          width: 150px;
+          height: 150px;
+          padding: 5px;
+          overflow: auto;
+        "
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
+        ratione possimus dicta saepe cumque vel unde est quam quod rem
+        perferendis illo id fugiat ullam dolorem rerum aspernatur molestiae
+        reiciendis deserunt, sint ipsam cupiditate aut. Magnam deleniti nemo
+        dolores consectetur? Harum esse voluptas suscipit dolor!
+      </p>
+    </div>
+
+    <br /><br />
+
+    <!-- Float -->
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis,
+      voluptate voluptatibus quaerat ab sint pariatur distinctio possimus ipsam,
+      animi placeat, odio nisi ipsa totam praesentium. Similique sunt vel, autem
+      sed mollitia adipisci! Necessitatibus non aliquam ut impedit placeat. Odit
+      vitae, inventore autem maxime mollitia minus.
+    </p>
+    <p>
+      <img
+        src="https://www.w3schools.com/css/pineapple.jpg"
+        alt="Pineapple"
+        style="width: 170px; height: 170px; margin-left: 15px; float: right"
+      />
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+      imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae
+      scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec
+      congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet.
+      Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent
+      convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis
+      dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc
+      venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida
+      venenatis. Integer fringilla congue eros non fermentum. Sed dapibus
+      pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.
+    </p>
+
+    <!-- InlineBlock -->
+    <h1>The display Property</h1>
+
+    <h2>display: inline</h2>
+    <div>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+      consequat scelerisque elit sit amet consequat. Aliquam erat volutpat.
+      <span class="a">Aliquam</span>
+      <span
+        class="a"
+        style="
+          background-color: black;
+          color: white;
+          display: inline;
+          padding: 12px;
+          height: 150px;
+          width: 150px;
+        "
+        >venenatis</span
+      >
+      gravida nisl sit amet facilisis. Nullam cursus fermentum velit sed
+      laoreet.
+    </div>
+
+    <h2>display: inline-block</h2>
+    <div>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+      consequat scelerisque elit sit amet consequat. Aliquam erat volutpat.
+      <span class="b">Aliquam</span>
+      <span
+        class="b"
+        style="
+          background-color: black;
+          color: white;
+          display: inline-block;
+          padding: 12px;
+          height: 150px;
+          width: 150px;
+        "
+        >venenatis</span
+      >
+      gravida nisl sit amet facilisis. Nullam cursus fermentum velit sed
+      laoreet.
+    </div>
+
+    <h2>display: block</h2>
+    <div>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+      consequat scelerisque elit sit amet consequat. Aliquam erat volutpat.
+      <span class="c">Aliquam</span>
+      <span
+        class="c"
+        style="
+          background-color: black;
+          color: white;
+          display: block;
+          padding: 12px;
+          height: 150px;
+          width: 150px;
+        "
+        >venenatis</span
+      >
+      gravida nisl sit amet facilisis. Nullam cursus fermentum velit sed
+      laoreet.
+    </div>
+    <br /><br /><br /><br /><br />
+
+    <!-- Hover -->
+
+    <button
+      style="
+        padding: 15px 35px;
+        font-size: 25px;
+        background-color: palegreen;
+        border: none;
+        font-weight: 800;
+      "
+      class="hover"
+    >
+      Click Me
+    </button>
+
+    <br /><br /><br />
+
+    <p
+      style="
+        border: 5px solid red;
+        padding: 15px;
+        width: 290px;
+        background-color: purple;
+        color: white;
+        font-size: 20px;
+        cursor: pointer;
+      "
+      class="jjj"
+    >
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+      reprehenderit dolorum incidunt. Totam, quidem! Temporibus voluptate
+      quibusdam quod voluptatem itaque esse, culpa aspernatur suscipit. Omnis
+      similique sequi quibusdam nisi facilis, a ipsa, asperiores illo quidem
+      accusantium voluptate quos tempora reprehenderit, eligendi delectus.
+      Obcaecati, eaque exercitationem?
+    </p>
+    <br /><br /><br />
+
+    <!-- Opactity-->
+
+    <div>
+      <img
+        src="http://127.0.0.1:5501/Cat.jfif"
+        style="height: 350px; width: 350px"
+        class="opactiy"
+      />
+    </div>
+    <br /><br />
+    <!-- BOxShadow -->
+
+    <div>
+      <p
+        style="
+          width: 450px;
+          padding: 15px;
+          box-shadow: 3px 3px 15px 2px gray;
+          margin-left: 145px;
+        "
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur velit
+        voluptate magnam, ratione dolores odit rerum voluptatum, ipsa cumque
+        repudiandae est obcaecati. Accusamus beatae reiciendis dolores ullam
+        corporis ut, reprehenderit nesciunt atque a assumenda unde rerum sunt,
+        aliquid suscipit ea velit molestiae quos libero, eveniet nihil
+        explicabo? Deserunt, eveniet. Atque vitae omnis nemo eos reiciendis.
+        cumque repudiandae est obcaecati. Accusamus beatae reiciendis dolores
+        ullam corporis ut, reprehenderit nesciunt atque a assumenda unde rerum
+        sunt, aliquid suscipit ea velit molestiae quos libero, eveniet nihil
+        explicabo? Deserunt, eveniet. Atque vitae omnis nemo eos reiciendis.
+      </p>
+    </div>
+    <br /><br />
+
+    <!-- LinearGradient -->
+
+    <div>
+      <p
+        style="
+          height: 300px;
+          width: 300px;
+          border: 5px solid green;
+          background: linear-gradient(
+            to right,
+            purple,
+            yellow,
+            green,
+            black,
+            blue
+          );
+        "
+      ></p>
+    </div>
+    <br /><br />
+
+    <div>
+      <p
+        style="
+          height: 300px;
+          width: 1300px;
+          border: 5px solid green;
+          background: radial-gradient(circle, green, purple, red, yellow);
+        "
+      ></p>
+    </div>
+
+    <br /><br />
+    <div>
+      <p
+        style="
+          height: 300px;
+          width: 300px;
+          border: 5px solid green;
+          background: conic-gradient(red, yellow, purple, black, gray);
+        "
+      ></p>
+    </div>
+
+    <h1>The border-image Property</h1>
+
+    <p>
+      Here, the middle sections of the image are repeated to create the border:
+    </p>
+    <p id="borderimg">border-image: url(border.png) 30 round;</p>
+
+    <br /><br /><br />
+
+    <!-- Input type -->
+
+    <input type="button" value="addme" />
+    <br />
+    <br />
+
+    <input type="checkbox" name="data" id="data" />
+    <label for="data">Cricket</label>
+    <input type="checkbox" name="data1" id="data1" />
+    <label for="data1">Hockky</label>
+    <input type="checkbox" name="data2" id="data2" />
+    <label for="data2">KhoKho</label>
+    <input type="checkbox" name="data3" id="data3" />
+    <label for="data3">Wallyball</label>
+    <input type="checkbox" name="data4" id="data4" />
+    <label for="data4">game</label>
+    <br />
+    <br />
+
+    <input type="color" />
+    <br /><br />
+    <input type="date" />
+    <br />
+    <br />
+    <input type="datetime-local" /><br /><br />
+    <input type="email" /><br /><br />
+    <input type="file" /><br /><br />
+    <input type="hidden" /><br /><br />
+    <input type="image" /><br /><br />
+    <input type="month" /><br /><br />
+    <input type="number" /><br /><br />
+    <input type="password" /><br /><br />
+
+    <input type="radio" id="data6" value="data6" name="nnn" />
+    <label for="data6">Female</label>
+    <input type="radio" id="data7" value="data7" name="nnn" />
+    <label for="data7">Male</label>
+    <input type="radio" id="data8" value="data8" name="nnn" />
+    <label for="data8">other</label>
+    <br /><br />
+    <input type="range" /><br /><br />
+    <input type="reset" /><br /><br />
+    <input type="submit" /><br /><br />
+    <input type="search" /><br /><br />
+    <input type="text" /><br /><br />
+    <input type="time" /><br /><br />
+    <input type="url" /><br /><br />
+    <input type="week" /><br /><br />
+
+    <textarea></textarea>
+
+    <select>
+      <option>Select</option>
+      <option>ABC</option>
+      <option>DEF</option>
+      <option>GHI</option>
+      <option>JKL</option>
+    </select>
+
+    <br /><br /><br />
+
+    <div>
+      <audio controls>
+        <source src="Sajaunga lut Kar bhi - Sonu Nigam.mp3" />
+      </audio>
+    </div>
+
+    <br /><br />
+    <div>
+      <video controls style="height: 500px; width: 550px">
+        <source src="pexels-bruchin-noeka-6243293 (1080p).mp4" />
+      </video>
+    </div>
+
+    <div>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.4778664169576!2d72.59861242586535!3d23.006220066937214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e85c51048cefb%3A0x777f51782a8b7a1a!2sKankaria%20Lake!5e0!3m2!1sen!2sin!4v1695123477291!5m2!1sen!2sin"
+        width="1300"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+    <br /><br />
+
+    <div>
+      <iframe src="Demo.css"></iframe>
+    </div>
+    <br /><br />
+
+    <div>
+      <img
+        src="https://www.w3schools.com/tags/workplace.jpg"
+        usemap="#workmap"
+        width="400"
+        height="379"
+      />
+
+      <map name="workmap">
+        <area
+          shape="rect"
+          coords="34,44,270,350"
+          alt="Computer"
+          href="https://www.w3schools.com/w3images/mac.jpg"
+        />
+        <area
+          shape="rect"
+          coords="290,172,333,250"
+          alt="Phone"
+          href="https://www.w3schools.com/w3images/cellphone.jpg"
+        />
+        <area
+          shape="circle"
+          coords="337,300,44"
+          alt="Cup of coffee"
+          href="https://www.w3schools.com/w3images/coffeehouse2.jpg"
+        />
+        <area
+          shape="rect"
+          coords="1,90,397,238"
+          alt="Cup of coffee"
+          href="https://thumbs.dreamstime.com/b/top-view-office-desk-copy-space-56038599.jpg"
+        />
+      </map>
+    </div>
+    <br /><br />
+
+    <div>
+      <p
+        style="
+          background-color: aqua;
+          width: 200px;
+          height: 150px;
+          transition: 3s;
+          transition-delay: 3s;
+        "
+        class="ppp"
+      >
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa, eaque
+        natus voluptatum quo consequuntur labore obcaecati.
+      </p>
+    </div>
+
+    <br /><br />
+   
+   
+
+
+    <div>
+      <center>
+
+     <img src="http://127.0.0.1:5501/Cat.jfif" style="height: 250px;width:250px;transition: 2s;" class="tra"> </center>
+    </div>
+    <br /><br />
+    
+    
+    <center>
+
+      <img src="http://127.0.0.1:5501/Cat.jfif" style="height: 250px;width:250px;transition: 2s;" class="tras"> </center>
+     </div>
+     <br /><br />
+     
+     <center>
+
+      <img src="http://127.0.0.1:5501/Cat.jfif" style="height: 250px;width:250px;transition: 2s;" class="trasd"> </center>
+     </div>
+     <br /><br />
+     
+     <center>
+
+      <img src="http://127.0.0.1:5501/Cat.jfif" style="height: 250px;width:250px;transition: 2s;" class="trasds"> </center>
+     </div>
+     <br /><br /><br />
+     
+     
+     
+     
+     <div class="dropdown">
+      <span>Mouse over me</span>
+      <div class="dropdown-content">
+      <p>Hello World!</p>
+      </div>
+    </div>
+     
+     
+     
+     
+     <br /><br /><br /> <br /><br /><br /> <br /><br /><br />
+  </body>
+</html>
